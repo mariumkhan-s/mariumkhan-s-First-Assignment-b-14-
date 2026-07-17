@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.cta {
+    width: 105.3%;
+    margin-left:200 px ;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #2563EB, #4F46E5);
+}
+
+.cta-content {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.cta-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

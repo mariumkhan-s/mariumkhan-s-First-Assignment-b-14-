@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+
+    padding: 20px 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: grey;
+}
+
+.buttonc {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.register-btn{
+    display: inline-block;
+    background-color: #2563EB;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.register-btn:hover{
+    background-color: #1D4ED8;
+}
+
+.register-btn:hover {
+    background-color: #1D4ED8;
+
+}
