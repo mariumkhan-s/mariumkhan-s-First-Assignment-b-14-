@@ -8,28 +8,50 @@ html, body{
     width: 100%;
     overflow-x: hidden;
 }
-.footer{
-    width: 100%;
-    padding: 25px 60px;
-    background: #111827;
-    color: #d1d5db;
+
+footer{
+    background-color: #0F172A;
+    color: white;
+    padding: 30px 60px;
+}
+
+.footer-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 15px;
 }
 
-.footer-right{
+.footer-logo h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.social-icons{
     display: flex;
-    gap: 25px;
+    gap: 18px;
 }
 
-.footer-right a{
-    text-decoration: none;
-    color: #d1d5db;
+.social-icons a{
+    color: white;
+    font-size: 22px;
     transition: 0.3s;
 }
 
-.footer-right a:hover{
-    color: white;
+.social-icons a:hover{
+    color: #60A5FA;
+}
+
+footer hr{
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 25px 0;
+}
+
+.footer-bottom{
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #CBD5E1;
+    font-size: 15px;
 }
